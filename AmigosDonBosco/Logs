@@ -1,0 +1,329 @@
+2024-11-03 22:17:39 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:30:21 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:30:44 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:30:44 ERROR material:247 - Error al insertar los datos.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'CDA00003' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2794)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2458)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2375)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2359)
+	at mediatecaudb.materialCD.insert(materialCD.java:244)
+	at mediatecaudb.mediateca_agregar.agregarCdActionPerformed(mediateca_agregar.java:263)
+	at mediatecaudb.mediateca_agregar.access$200(mediateca_agregar.java:25)
+	at mediatecaudb.mediateca_agregar$2.actionPerformed(mediateca_agregar.java:93)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2024-11-03 22:31:36 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:31:55 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:31:55 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:32:04 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:32:04 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:32:11 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:32:15 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:37:43 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:42:28 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:50:22 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:51:21 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:51:21 ERROR material:70 - Error al procesar los datos.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'anioPublicacion' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2794)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2458)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2375)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2359)
+	at mediatecaudb.materialLibro.insert(materialLibro.java:67)
+	at mediatecaudb.mediateca_agregar.agregarLibroActionPerformed(mediateca_agregar.java:382)
+	at mediatecaudb.mediateca_agregar.access$400(mediateca_agregar.java:25)
+	at mediatecaudb.mediateca_agregar$4.actionPerformed(mediateca_agregar.java:134)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2024-11-03 22:55:31 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:56:59 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:57:57 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:58:09 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:58:09 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:58:11 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:58:20 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:58:46 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:58:46 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:58:49 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:58:50 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:58:52 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:58:58 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:59:35 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:59:38 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:59:40 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:59:42 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 22:59:59 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:00:35 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:00:35 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:00:43 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:00:43 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:01:01 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:01:01 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:01:06 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:01:13 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:01:13 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:01:23 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:01:35 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:01:51 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:04:20 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:05:00 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:05:00 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:05:22 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:05:22 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:05:32 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:05:48 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:05:59 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:06:00 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:06:02 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:06:03 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:06:03 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:06:04 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:06:04 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:06:23 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:06:24 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:06:34 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:06:53 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:06:56 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:07:06 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:07:27 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:07:27 ERROR material:220 - Error al procesar los datos.
+java.sql.SQLException: Column 'codd' not found.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1167)
+	at com.mysql.jdbc.ResultSetImpl.getString(ResultSetImpl.java:5733)
+	at mediatecaudb.materialLibro.ActualizarDatosFrame(materialLibro.java:124)
+	at mediatecaudb.materialLibro.update(materialLibro.java:94)
+	at mediatecaudb.mediateca_listar.btnActualizarActionPerformed(mediateca_listar.java:381)
+	at mediatecaudb.mediateca_listar.access$700(mediateca_listar.java:21)
+	at mediatecaudb.mediateca_listar$7.actionPerformed(mediateca_listar.java:199)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2024-11-03 23:07:27 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:09:54 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:10:01 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:11:00 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:11:05 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:14:21 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:14:38 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:15:08 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:15:16 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:15:16 ERROR material:200 - Error al procesar los datos.
+java.sql.SQLException: Column 'codd' not found.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1167)
+	at com.mysql.jdbc.ResultSetImpl.getString(ResultSetImpl.java:5733)
+	at mediatecaudb.materialRevista.ActualizarDatosFrame(materialRevista.java:122)
+	at mediatecaudb.materialRevista.update(materialRevista.java:92)
+	at mediatecaudb.mediateca_listar.btnActualizarActionPerformed(mediateca_listar.java:377)
+	at mediatecaudb.mediateca_listar.access$700(mediateca_listar.java:21)
+	at mediatecaudb.mediateca_listar$7.actionPerformed(mediateca_listar.java:199)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2024-11-03 23:15:16 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:16:09 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:16:16 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:17:10 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:17:14 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:18:12 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:18:19 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:18:26 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:18:26 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:18:35 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:18:40 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:18:47 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:18:55 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:18:58 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:18:58 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:19:03 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:19:58 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:20:07 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:20:09 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:20:54 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:21:17 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:21:27 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:21:35 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:21:35 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:21:51 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:22:04 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:48:28 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:48:35 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:48:35 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:48:40 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:48:47 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:51:16 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:51:22 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:53:39 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:53:46 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:57:10 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:57:15 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:57:17 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-03 23:57:22 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-23 04:40:06 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-23 04:40:33 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-23 04:40:40 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-23 04:40:42 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-23 04:40:44 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-23 04:40:45 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-23 04:40:46 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-23 06:05:52 INFO  ConexionBD:29 - Realizando una operacion a la BD
+2024-11-23 06:11:53 INFO  ConexionBD:29 - Realizando una operacion a la BD
